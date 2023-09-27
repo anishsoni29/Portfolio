@@ -90,7 +90,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-4xl text-[#CCC8AA] mb-3 py-1 dark:text-[#CCC8AA]">
+            <h3 className="text-4xl text-[#b7b499] mb-3 py-1 dark:text-[#CCC8AA]">
               Services
             </h3>
             <p className="text-md py-2 leading-8 text-gray-80 dark:text-white">
