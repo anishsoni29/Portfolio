@@ -50,7 +50,7 @@ export default function Home() {
             </ul>
           </nav>
           <div className="text-center p-10 dark:text-white">
-            <h2 className="text-5xl py-2 text-[#CCC8AA] font-medium md:text-6xl dark:text-[#CCC8AA]">
+            <h2 className="text-5xl py-2 text-[#b7b499] font-medium md:text-6xl dark:text-[#CCC8AA]">
               Anish Soni
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
@@ -95,16 +95,16 @@ export default function Home() {
             </h3>
             <p className="text-md py-2 leading-8 text-gray-80 dark:text-white">
               Working on{" "}
-              <span className="text-[#CCC8AA]">Open Source Contributions</span>{" "}
+              <span className="text-[#b7b499]">Open Source Contributions</span>{" "}
               since the beginning of the adventure, and I'm currently extending
               my expertise in{" "}
-              <span className="text-[#CCC8AA]">Artificial Intelligence</span>{" "}
+              <span className="text-[#b7b499]">Artificial Intelligence</span>{" "}
               because, well, why not?
             </p>
             <p className="text-md py-2 leading-8 text-gray-80 dark:text-white">
               I have also worked on{" "}
-              <span className="text-[#CCC8AA]">Data Analysis</span> and{" "}
-              <span className="text-[#CCC8AA]"> Map Designs</span> and have
+              <span className="text-[#b7b499]">Data Analysis</span> and{" "}
+              <span className="text-[#b7b499]"> Map Designs</span> and have
               built some cool projects.
             </p>
           </div>
@@ -116,7 +116,7 @@ export default function Home() {
                   Beautiful Designs
                 </h3>
                 <p className="py-2">Creating elegant designs.</p>
-                <h4 className="py-4 text-[#CCC8AA]">Design Tools I use</h4>
+                <h4 className="py-4 text-[#b7b499]">Design Tools I use</h4>
                 <p className="text-gray-800 py-1">Photoshop</p>
                 <p className="text-gray-800 py-1">Figma</p>
                 <p className="text-gray-800 py-1">Illustrator</p>
@@ -128,7 +128,7 @@ export default function Home() {
                 <Image src={code} width={100} height={100} />
                 <h3 className="text-lg font-medium pt-8 pb-2">Code</h3>
                 <p className="py-2">Producing refined code on a daily basis.</p>
-                <h4 className="py-4 text-[#CCC8AA]">Favourite Domains :</h4>
+                <h4 className="py-4 text-[#b7b499]">Favourite Domains :</h4>
                 <p className="text-gray-800 py-1">Data Science</p>
                 <p className="text-gray-800 py-1">Machine Learning</p>
                 <p className="text-gray-800 py-1">Artificial Intelligence</p>
@@ -142,7 +142,7 @@ export default function Home() {
                   Brain - Storming
                 </h3>
                 <p className="py-2">Extra-curricular Interests!</p>
-                <h4 className="py-4 text-[#CCC8AA]">Domains I surf daily</h4>
+                <h4 className="py-4 text-[#b7b499]">Domains I surf daily</h4>
                 <p className="text-gray-800 py-1">Finance & Economics</p>
                 <p className="text-gray-800 py-1">Fitness</p>
                 <p className="text-gray-800 py-1">
@@ -155,7 +155,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-4xl text-[#CCC8AA] py-1 my-2 dark:text-[#CCC8AA]">
+            <h3 className="text-4xl text-[#b7b499] py-1 my-2 dark:text-[#CCC8AA]">
               Portfolio
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
