@@ -94,7 +94,7 @@ export default function Home() {
               Services
             </h3>
             <p className="text-md py-2 leading-8 text-gray-80 dark:text-white">
-              I've worked on{" "}
+              Working on{" "}
               <span className="text-[#CCC8AA]">Open Source Contributions</span>{" "}
               since the beginning of the adventure, and I'm currently extending
               my expertise in{" "}
@@ -148,9 +148,7 @@ export default function Home() {
                 <p className="text-gray-800 py-1">
                   Bussiness & Political Case Studies
                 </p>
-                <p className="text-gray-800 py-1">
-                  Ergonomics and Design studies
-                </p>
+                <p className="text-gray-800 py-1">Ergonomics and Design</p>
               </div>
             </div>
           </div>
