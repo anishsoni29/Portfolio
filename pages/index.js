@@ -145,10 +145,10 @@ export default function Home() {
                 <h4 className="py-4 text-[#b7b499]">Domains I surf daily</h4>
                 <p className="text-gray-800 py-1">Finance & Economics</p>
                 <p className="text-gray-800 py-1">Fitness</p>
+                <p className="text-gray-800 py-1">Ergonomics and Design</p>
                 <p className="text-gray-800 py-1">
                   Bussiness & Political Case Studies
                 </p>
-                <p className="text-gray-800 py-1">Ergonomics and Design</p>
               </div>
             </div>
           </div>
