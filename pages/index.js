@@ -51,7 +51,7 @@ export default function Home() {
           </nav>
           <div className="text-center p-10 dark:text-white">
             <h2 className="text-5xl py-2 text-[#CCC8AA] font-medium md:text-6xl dark:text-[#CCC8AA]">
-              Anish Soni
+              Anish Soni's
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
               Engineer | Designer | Developer
