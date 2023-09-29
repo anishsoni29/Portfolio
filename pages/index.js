@@ -116,7 +116,7 @@ export default function Home() {
                   Beautiful Designs
                 </h3>
                 <p className="py-2">Creating elegant designs.</p>
-                <h4 className="py-4 text-[#b7b499]">Design Tools I use</h4>
+                <h4 className="py-4 text-[#b7b499]">Design Tools I use:</h4>
                 <p className="text-gray-800 py-1">Photoshop</p>
                 <p className="text-gray-800 py-1">Figma</p>
                 <p className="text-gray-800 py-1">Illustrator</p>
@@ -128,7 +128,7 @@ export default function Home() {
                 <Image src={code} width={100} height={100} />
                 <h3 className="text-lg font-medium pt-8 pb-2">Code</h3>
                 <p className="py-2">Producing refined code on a daily basis.</p>
-                <h4 className="py-4 text-[#b7b499]">Domains :</h4>
+                <h4 className="py-4 text-[#b7b499]">Domains:</h4>
                 <p className="text-gray-800 py-1">Data Science</p>
                 <p className="text-gray-800 py-1">Machine Learning</p>
                 <p className="text-gray-800 py-1">Artificial Intelligence</p>
@@ -159,8 +159,8 @@ export default function Home() {
               Portfolio
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              My Portfolio includes various figma designs, projects I created to
-              address difficulties I encountered locally, and much more, all of
+              My Portfolio includes projects I created to address difficulties I
+              encountered locally, various figma designs and much more, all of
               which can be found on my Github.
             </p>
           </div>
