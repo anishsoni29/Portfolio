@@ -142,7 +142,7 @@ export default function Home() {
                   Brain - Storming
                 </h3>
                 <p className="py-2">Extra-curricular Interests!</p>
-                <h4 className="py-4 text-[#b7b499]">Domains I surf daily</h4>
+                <h4 className="py-4 text-[#b7b499]">Domains:</h4>
                 <p className="text-gray-800 py-1">Finance & Economics</p>
                 <p className="text-gray-800 py-1">Fitness</p>
                 <p className="text-gray-800 py-1">Ergonomics and Design</p>
