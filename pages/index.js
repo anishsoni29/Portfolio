@@ -128,7 +128,7 @@ export default function Home() {
                 <Image src={code} width={100} height={100} />
                 <h3 className="text-lg font-medium pt-8 pb-2">Code</h3>
                 <p className="py-2">Producing refined code on a daily basis.</p>
-                <h4 className="py-4 text-[#b7b499]">Favourite Domains :</h4>
+                <h4 className="py-4 text-[#b7b499]">Domains :</h4>
                 <p className="text-gray-800 py-1">Data Science</p>
                 <p className="text-gray-800 py-1">Machine Learning</p>
                 <p className="text-gray-800 py-1">Artificial Intelligence</p>
@@ -142,7 +142,7 @@ export default function Home() {
                   Brain - Storming
                 </h3>
                 <p className="py-2">Extra-curricular Interests!</p>
-                <h4 className="py-4 text-[#b7b499]">Domains:</h4>
+                <h4 className="py-4 text-[#b7b499]">Favourites:</h4>
                 <p className="text-gray-800 py-1">Finance & Economics</p>
                 <p className="text-gray-800 py-1">Fitness</p>
                 <p className="text-gray-800 py-1">Ergonomics and Design</p>
