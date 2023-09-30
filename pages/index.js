@@ -58,7 +58,7 @@ export default function Home() {
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400">
               A computer geek who is experimenting with Advanced Computing,
-              Artificial intelligence, machine learning, and design.
+              Artificial intelligence, Machine learning, and Design.
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 dark:text-gray-400">
