@@ -233,7 +233,7 @@ export default function Home() {
                   href="https://twitter.com/anishsoni29"
                   class="hover:text-blue-300 mr-3"
                 >
-                  Twitter
+                  Twitte
                 </a>
               </li>
             </ul>
