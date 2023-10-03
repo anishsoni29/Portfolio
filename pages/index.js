@@ -158,9 +158,10 @@ export default function Home() {
               Portfolio
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              It includes projects I created to address difficulties I
-              encountered locally, various figma designs and much more, all of
-              which can be found on my Github.
+              On my Github, you may find a variety of projects I developed to
+              answer problems I experienced locally, including artificial
+              intelligence-driven attendance systems, Python-based algorithmic
+              trading, risk assessments, and numerous Figma designs.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
