@@ -94,8 +94,7 @@ export default function Home() {
               Services
             </h3>
             <p className="text-md py-2 leading-8 text-gray-80 dark:text-white">
-              Working on{" "}
-              <span className="text-[#b7b499]">Open Source Contributions</span>{" "}
+              Working on <span className="text-[#b7b499]">Open Source </span>{" "}
               since the beginning of the adventure, and I'm currently extending
               my expertise in{" "}
               <span className="text-[#b7b499]">Artificial Intelligence</span>{" "}
