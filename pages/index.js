@@ -158,7 +158,7 @@ export default function Home() {
               Portfolio
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              My Portfolio includes projects I created to address difficulties I
+              It includes projects I created to address difficulties I
               encountered locally, various figma designs and much more, all of
               which can be found on my Github.
             </p>
