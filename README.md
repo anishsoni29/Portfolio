@@ -19,7 +19,7 @@ This is the repository for my personal portfolio website, where I showcase my sk
 Feel free to clone this repository and customize it to create your own portfolio website. Your feedback and contributions are welcome!
 
 📬 Contact: [sonianish441@gmail.com]
-📱 Twitter: [anishsoni29]
-🌐 Website: [anishsoni.in]
+📱 Twitter: [[anishsoni29](https://twitter.com/anishsoni29)]
+🌐 Website: [anishsoni.in](https://anishsoni.in)
 
 Enjoy exploring and building your own impressive online presence!
