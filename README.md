@@ -2,7 +2,7 @@
 
 This is the repository for my personal portfolio website, where I showcase my skills, projects, and experiences. Explore my work, learn about me, and get in touch!
 
-🔗 [Check out the live website here](anishsoni.in)
+🔗 [Check out the live website here](https://www.anishsoni.in/)
 
 ## Features:
 - 💼 Detailed information about my professional background and experience.
