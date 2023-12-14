@@ -64,6 +64,7 @@ export default function Home() {
           <div className="text-5xl flex justify-center gap-16 py-3 dark:text-gray-400">
             <a
               href="https://github.com/anishsoni29"
+              target="_blank"
               div
               className="cursor-pointer text-black dark:text-white hover:scale-110 transition-transform"
             >
@@ -71,6 +72,7 @@ export default function Home() {
             </a>
             <a
               href="https://www.linkedin.com/in/anishsoni/"
+              target="_blank"
               div
               className="cursor-pointer text-blue-600 hover:scale-110 transition-transform"
             >
@@ -78,6 +80,7 @@ export default function Home() {
             </a>
             <a
               href="https://twitter.com/anishsoni29"
+              target="_blank"
               div
               className="cursor-pointer text-blue-400 hover:scale-110 transition-transform"
             >
@@ -207,6 +210,7 @@ export default function Home() {
               <li>
                 <a
                   href="https://www.linkedin.com/in/anishsoni/"
+                  target="_blank"
                   class="hover:text-blue-500 mr-3"
                 >
                   LinkedIn
@@ -224,6 +228,7 @@ export default function Home() {
               <li>
                 <a
                   href="https://www.instagram.com/depolarised_/"
+                  target="_blank"
                   class="hover:text-pink-400 mr-3"
                 >
                   Photography
@@ -232,6 +237,7 @@ export default function Home() {
               <li class="ml-2">
                 <a
                   href="https://twitter.com/anishsoni29"
+                  target="_blank"
                   class="hover:text-blue-300 mr-3"
                 >
                   Twitter
