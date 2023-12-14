@@ -215,6 +215,7 @@ export default function Home() {
               <li>
                 <a
                   href="https://github.com/anishsoni29"
+                  target="_blank"
                   class="hover:text-green-300 mr-3"
                 >
                   Github
