@@ -42,7 +42,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-[#AEC3AE] to-[#FAF1E4] text-white px-4 py-2 rounded-md ml-8"
-                  href="/resume.pdf"
+                  href="/resume_anish_soni.pdf"
                 >
                   Resume
                 </a>
