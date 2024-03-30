@@ -22,20 +22,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-white px-10 md:px-20 lg:pfd-40 dark:bg-zinc-950">
+      <main className="bg-zinc-950 px-10 md:px-20 lg:pfd-40 text-white">
         <section className="min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between dark:text-white">
+          <nav className="py-10 mb-12 flex justify-between">
             <h1 className="text-xl font-burtons">Developed by Anish</h1>
             <ul className="flex items-center">
-              <li className="dark:text-slate-50">
-                <BsFillMoonStarsFill
-                  onClick={() => setDarkMode(!darkMode)}
-                  className="cursor-pointer text-xl"
-                />
-              </li>
               <li>
                 <a
-                  className="bg-gradient-to-r from-[#AEC3AE] to-[#FAF1E4] text-white px-4 py-2 rounded-md ml-8"
+                  className="bg-green-600 text-white px-4 py-2 rounded-md ml-8"
                   href="/resume_anish_soni.pdf"
                 >
                   Resume
@@ -43,24 +37,24 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div className="text-center p-10 dark:text-white">
+          <div className="text-center p-10 text-white">
             <h2 className="text-5xl py-2 text-[#b7b499] font-medium md:text-6xl dark:text-[#CCC8AA]">
               Anish Soni
             </h2>
-            <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
+            <h3 className="text-2xl py-2 md:text-3xl text-white">
               Engineer | Designer | Developer
             </h3>
-            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400">
+            <p className="text-md py-5 leading-8 text-gray-400 md:text-xl max-w-xl mx-auto">
               A computer geek who is experimenting with Advanced Computing,
               Artificial intelligence, Machine learning, and Design.
             </p>
           </div>
-          <div className="text-5xl flex justify-center gap-16 py-3 dark:text-gray-400">
+          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-400">
             <a
               href="https://github.com/anishsoni29"
               target="_blank"
               div
-              className="cursor-pointer text-black dark:text-white hover:scale-110 transition-transform"
+              className="cursor-pointer text-white hover:scale-110 transition-transform"
             >
               <AiFillGithub />
             </a>
@@ -87,17 +81,15 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-4xl text-[#b7b499] mb-3 py-1 dark:text-[#CCC8AA]">
-              Services
-            </h3>
-            <p className="text-md py-2 leading-8 text-gray-80 dark:text-white">
+            <h3 className="text-4xl mb-3 py-1 text-[#CCC8AA]">Services</h3>
+            <p className="text-md py-2 leading-8 text-gray-80 text-white">
               Working on <span className="text-[#b7b499]">Open Source </span>{" "}
               since the beginning of the adventure, and I'm currently extending
               my expertise in{" "}
               <span className="text-[#b7b499]">Artificial Intelligence</span>{" "}
               because, well, why not?
             </p>
-            <p className="text-md py-2 leading-8 text-gray-80 dark:text-white">
+            <p className="text-md py-2 leading-8 text-gray-80 text-white">
               I have also worked on{" "}
               <span className="text-[#b7b499]">Data Analysis</span> and{" "}
               <span className="text-[#b7b499]"> Map Designs</span> and have
@@ -105,10 +97,7 @@ export default function Home() {
             </p>
           </div>
           <div className="lg:flex gap-10 ">
-            <div
-              className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white {--tw-bg-opacity: 1; background-color: lightslategrey; opacity: 0.8}
-              flex-1 hover:scale-110 transition-transform"
-            >
+            <div className="bg-gray-800 opacity-70 text-center shadow-lg p-10 rounded-xl my-10 flex-1 hover:scale-110 transition-transform">
               <div className="flex flex-col items-center">
                 <div className="image-container">
                   <Image src={design} width={100} height={100} />
@@ -118,25 +107,25 @@ export default function Home() {
                 </h3>
                 <p className="py-2">Creating elegant designs.</p>
                 <h4 className="py-4 text-[#b7b499]">Design Tools I use:</h4>
-                <p className="text-gray-800 py-1">Photoshop</p>
-                <p className="text-gray-800 py-1">Figma</p>
-                <p className="text-gray-800 py-1">Illustrator</p>
-                <p className="text-gray-800 py-1">Photoshop</p>
+                <p className="text-gray-600 py-1">Photoshop</p>
+                <p className="text-gray-600 py-1">Figma</p>
+                <p className="text-gray-600 py-1">Illustrator</p>
+                <p className="text-gray-600 py-1">Photoshop</p>
               </div>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1 hover:scale-110 transition-transform">
+            <div className="bg-gray-800 opacity-70 text-center shadow-lg p-10 rounded-xl my-10 flex-1 hover:scale-110 transition-transform">
               <div className="flex flex-col items-center">
                 <Image src={code} width={100} height={100} />
                 <h3 className="text-lg font-medium pt-8 pb-2">Code</h3>
                 <p className="py-2">Producing refined code on a daily basis.</p>
                 <h4 className="py-4 text-[#b7b499]">Domains:</h4>
-                <p className="text-gray-800 py-1">Data Science</p>
-                <p className="text-gray-800 py-1">Machine Learning</p>
-                <p className="text-gray-800 py-1">Artificial Intelligence</p>
-                <p className="text-gray-800 py-1">Statistics</p>
+                <p className="text-gray-600 py-1">Data Science</p>
+                <p className="text-gray-600 py-1">Machine Learning</p>
+                <p className="text-gray-600 py-1">Artificial Intelligence</p>
+                <p className="text-gray-600 py-1">Statistics</p>
               </div>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1 hover:scale-110 transition-transform">
+            <div className="bg-gray-800 opacity-70 text-center shadow-lg p-10 rounded-xl my-10 flex-1 hover:scale-110 transition-transform">
               <div className="flex flex-col items-center">
                 <Image src={consulting} width={100} height={100} />
                 <h3 className="text-lg font-medium pt-8 pb-2">
@@ -144,10 +133,10 @@ export default function Home() {
                 </h3>
                 <p className="py-2">Extra-curricular Interests!</p>
                 <h4 className="py-4 text-[#b7b499]">Favourites:</h4>
-                <p className="text-gray-800 py-1">Finance & Economics</p>
-                <p className="text-gray-800 py-1">Fitness</p>
-                <p className="text-gray-800 py-1">Ergonomics and Design</p>
-                <p className="text-gray-800 py-1">
+                <p className="text-gray-600 py-1">Finance & Economics</p>
+                <p className="text-gray-600 py-1">Fitness</p>
+                <p className="text-gray-600 py-1">Ergonomics and Design</p>
+                <p className="text-gray-600 py-1">
                   Bussiness & Political Case Studies
                 </p>
               </div>
@@ -156,10 +145,8 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-4xl text-[#b7b499] py-1 my-2 dark:text-[#CCC8AA]">
-              Portfolio
-            </h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            <h3 className="text-4xl py-1 my-2 text-[#CCC8AA]">Portfolio</h3>
+            <p className="text-md py-2 leading-8 text-gray-200">
               On my Github, you may find a variety of projects I developed to
               answer problems I experienced locally, including artificial
               intelligence-driven attendance systems, Python-based algorithmic
@@ -167,13 +154,13 @@ export default function Home() {
             </p>
           </div>
         </section>
-        <footer className="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
+        <footer className="rounded-lg shadow m-4 bg-gray-800">
           <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
             <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
               © 2024 <a class="hover:underline">Anish Soni</a>
             </span>
             <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
-              <li>
+              <li class="ml-2">
                 <a
                   href="https://www.linkedin.com/in/anishsoni/"
                   target="_blank"
@@ -182,7 +169,7 @@ export default function Home() {
                   LinkedIn
                 </a>
               </li>
-              <li>
+              <li class="ml-2">
                 <a
                   href="https://github.com/anishsoni29"
                   target="_blank"
@@ -191,7 +178,7 @@ export default function Home() {
                   Github
                 </a>
               </li>
-              <li>
+              <li class="ml-2">
                 <a
                   href="https://www.instagram.com/depolarised_/"
                   target="_blank"
