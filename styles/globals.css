@@ -22,3 +22,7 @@ a {
   font-family: "burtons";
   src: url("../public/Burtons.otf");
 }
+
+.image-container {
+  background-color: transparent;
+}
