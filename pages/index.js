@@ -10,9 +10,6 @@ import anish from "../public/anish.jpg";
 import design from "../public/design.png";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
 import { useState } from "react";
 
 export default function Home() {
@@ -108,7 +105,10 @@ export default function Home() {
             </p>
           </div>
           <div className="lg:flex gap-10 ">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1 hover:scale-110 transition-transform">
+            <div
+              className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white {--tw-bg-opacity: 1; background-color: lightslategrey; opacity: 0.8}
+              flex-1 hover:scale-110 transition-transform"
+            >
               <div className="flex flex-col items-center">
                 <div className="image-container">
                   <Image src={design} width={100} height={100} />
