@@ -23,7 +23,7 @@ export default function Home() {
       </Head>
 
       <main className="bg-zinc-950 px-10 md:px-20 lg:pfd-40 text-white">
-        <section className="min-h-screen">
+        <section className="min-h-screen pb-20">
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className="text-xl font-burtons">Developed by Anish</h1>
             <ul className="flex items-center">
@@ -81,19 +81,24 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-4xl mb-3 py-1 text-[#CCC8AA]">Services</h3>
+            <button
+              type="button"
+              class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 mb-10"
+            >
+              Services
+            </button>
             <p className="text-md py-2 leading-8 text-gray-80 text-white">
-              Working on <span className="text-[#b7b499]">Open Source </span>{" "}
+              Working on <span className="text-blue-400">Open Source </span>{" "}
               since the beginning of the adventure, and I'm currently extending
               my expertise in{" "}
-              <span className="text-[#b7b499]">Artificial Intelligence</span>{" "}
+              <span className="text-blue-400">Artificial Intelligence</span>{" "}
               because, well, why not?
             </p>
             <p className="text-md py-2 leading-8 text-gray-80 text-white">
               I have also worked on{" "}
-              <span className="text-[#b7b499]">Data Analysis</span> and{" "}
-              <span className="text-[#b7b499]"> Map Designs</span> and have
-              built some cool projects.
+              <span className="text-blue-400">Data Analysis</span> and{" "}
+              <span className="text-blue-400"> Map Designs</span> and have built
+              some cool projects.
             </p>
           </div>
           <div className="lg:flex gap-10 ">
@@ -106,7 +111,7 @@ export default function Home() {
                   Beautiful Designs
                 </h3>
                 <p className="py-2">Creating elegant designs.</p>
-                <h4 className="py-4 text-[#b7b499]">Design Tools I use:</h4>
+                <h4 className="py-4 text-green-600">Design Tools I use:</h4>
                 <p className="text-gray-600 py-1">Photoshop</p>
                 <p className="text-gray-600 py-1">Figma</p>
                 <p className="text-gray-600 py-1">Illustrator</p>
@@ -118,7 +123,7 @@ export default function Home() {
                 <Image src={code} width={100} height={100} />
                 <h3 className="text-lg font-medium pt-8 pb-2">Code</h3>
                 <p className="py-2">Producing refined code on a daily basis.</p>
-                <h4 className="py-4 text-[#b7b499]">Domains:</h4>
+                <h4 className="py-4 text-green-600">Domains:</h4>
                 <p className="text-gray-600 py-1">Data Science</p>
                 <p className="text-gray-600 py-1">Machine Learning</p>
                 <p className="text-gray-600 py-1">Artificial Intelligence</p>
@@ -132,7 +137,7 @@ export default function Home() {
                   Brain - Storming
                 </h3>
                 <p className="py-2">Extra-curricular Interests!</p>
-                <h4 className="py-4 text-[#b7b499]">Favourites:</h4>
+                <h4 className="py-4 text-green-600">Favourites:</h4>
                 <p className="text-gray-600 py-1">Finance & Economics</p>
                 <p className="text-gray-600 py-1">Fitness</p>
                 <p className="text-gray-600 py-1">Ergonomics and Design</p>
@@ -145,26 +150,30 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-4xl py-1 my-2 text-[#CCC8AA]">Portfolio</h3>
-            <p className="text-md py-2 leading-8 text-gray-200">
-              On my Github, you may find a variety of projects I developed to
-              answer problems I experienced locally, including artificial
-              intelligence-driven attendance systems, Python-based algorithmic
-              trading, risk assessments, and numerous Figma designs.
-            </p>
+            <button
+              type="button"
+              className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 mb-10"
+            >
+              Portfolio
+            </button>
+            <div className="text-md py-2 leading-8 text-gray-200">
+              <div className="text-green-400">console.log</div>
+              Thanks for diving into my digital world !; <br />
+              Keep coding, keep creating, and let's innovate together !; <br />
+            </div>
           </div>
         </section>
         <footer className="rounded-lg shadow m-4 bg-gray-800">
-          <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+          <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
             <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
               © 2024 <a class="hover:underline">Anish Soni</a>
             </span>
-            <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
-              <li class="ml-2">
+            <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+              <li className="ml-2">
                 <a
                   href="https://www.linkedin.com/in/anishsoni/"
                   target="_blank"
-                  class="hover:text-blue-500 mr-3"
+                  className="hover:text-blue-500 mr-3"
                 >
                   LinkedIn
                 </a>
@@ -173,25 +182,25 @@ export default function Home() {
                 <a
                   href="https://github.com/anishsoni29"
                   target="_blank"
-                  class="hover:text-green-300 mr-3"
+                  className="hover:text-green-300 mr-3"
                 >
                   Github
                 </a>
               </li>
-              <li class="ml-2">
+              <li className="ml-2">
                 <a
                   href="https://www.instagram.com/depolarised_/"
                   target="_blank"
-                  class="hover:text-pink-400 mr-3"
+                  className="hover:text-pink-400 mr-3"
                 >
                   Photography
                 </a>
               </li>
-              <li class="ml-2">
+              <li className="ml-2">
                 <a
                   href="https://twitter.com/anishsoni29"
                   target="_blank"
-                  class="hover:text-blue-300 mr-3"
+                  className="hover:text-blue-300 mr-3"
                 >
                   Twitter
                 </a>
