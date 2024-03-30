@@ -7,8 +7,9 @@ import {
 } from "react-icons/ai";
 import Image from "next/image";
 import anish from "../public/anish.jpg";
-import design from "../public/design.png";
-import code from "../public/code.png";
+import mac_img from "../public/mac.png";
+import python_img from "../public/python.png";
+import design_img from "../public/react.png";
 import consulting from "../public/consulting.png";
 import { useState } from "react";
 
@@ -45,8 +46,8 @@ export default function Home() {
               Engineer | Designer | Developer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-400 md:text-xl max-w-xl mx-auto">
-              A computer geek who is experimenting with Advanced Computing,
-              Artificial intelligence, Machine learning, and Design.
+              Exploring the Alchemy of Technology where Advanced Computing,
+              Artificial Intelligence, and Machine Learning Collide!
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-400">
@@ -81,67 +82,75 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <button
-              type="button"
-              class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 mb-10"
-            >
-              Services
-            </button>
-            <p className="text-md py-2 leading-8 text-gray-80 text-white">
-              Working on <span className="text-blue-400">Open Source </span>{" "}
-              since the beginning of the adventure, and I'm currently extending
-              my expertise in{" "}
+            <a href="https://github.com/anishsoni29">
+              <button
+                type="button"
+                class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 mb-10"
+              >
+                Services
+              </button>
+            </a>
+
+            <p className="text-md py-2 leading-8 text-white">
+              🛠️ <span className="text-blue-400 ">Open Source </span> since the
+              beginning of the adventure, and I'm currently extending my
+              expertise in{" "}
               <span className="text-blue-400">Artificial Intelligence</span>{" "}
               because, well, why not?
             </p>
-            <p className="text-md py-2 leading-8 text-gray-80 text-white">
-              I have also worked on{" "}
-              <span className="text-blue-400">Data Analysis</span> and{" "}
-              <span className="text-blue-400"> Map Designs</span> and have built
-              some cool projects.
+            <p className="text-md py-2 leading-8 text-white">
+              🤖 I have also worked on{" "}
+              <span className="text-blue-400">Generative AI</span> and{" "}
+              <span className="text-blue-400"> Sound Engineering </span> and
+              have built some astounding projects.
+            </p>
+            <p className="text-md py-2 leading-8 text-white ">
+              🚀 Join me as I navigate through a tapestry of projects, each a
+              testament to the fusion of art and science in the digital age.
+              <br />
             </p>
           </div>
           <div className="lg:flex gap-10 ">
             <div className="bg-gray-800 opacity-70 text-center shadow-lg p-10 rounded-xl my-10 flex-1 hover:scale-110 transition-transform">
               <div className="flex flex-col items-center">
                 <div className="image-container">
-                  <Image src={design} width={100} height={100} />
+                  <Image src={design_img} width={100} height={100} />
                 </div>
-                <h3 className="text-lg font-medium pt-8 pb-2">
+                <h3 className="text-lg font-medium pt-8 pb-2 text-white">
                   Beautiful Designs
                 </h3>
                 <p className="py-2">Creating elegant designs.</p>
                 <h4 className="py-4 text-green-600">Design Tools I use:</h4>
-                <p className="text-gray-600 py-1">Photoshop</p>
-                <p className="text-gray-600 py-1">Figma</p>
-                <p className="text-gray-600 py-1">Illustrator</p>
-                <p className="text-gray-600 py-1">Photoshop</p>
+                <p className="text-gray-500 py-1">Figma</p>
+                <p className="text-gray-500 py-1">Canva</p>
+                <p className="text-gray-500 py-1">Illustrator</p>
+                <p className="text-gray-500 py-1">Photoshop</p>
               </div>
             </div>
             <div className="bg-gray-800 opacity-70 text-center shadow-lg p-10 rounded-xl my-10 flex-1 hover:scale-110 transition-transform">
               <div className="flex flex-col items-center">
-                <Image src={code} width={100} height={100} />
+                <Image src={python_img} width={100} height={100} />
                 <h3 className="text-lg font-medium pt-8 pb-2">Code</h3>
                 <p className="py-2">Producing refined code on a daily basis.</p>
                 <h4 className="py-4 text-green-600">Domains:</h4>
-                <p className="text-gray-600 py-1">Data Science</p>
-                <p className="text-gray-600 py-1">Machine Learning</p>
-                <p className="text-gray-600 py-1">Artificial Intelligence</p>
-                <p className="text-gray-600 py-1">Statistics</p>
+                <p className="text-gray-500 py-1">Javascript</p>
+                <p className="text-gray-500 py-1">Data Science</p>
+                <p className="text-gray-500 py-1">Machine Learning</p>
+                <p className="text-gray-500 py-1">Artificial Intelligence</p>
               </div>
             </div>
             <div className="bg-gray-800 opacity-70 text-center shadow-lg p-10 rounded-xl my-10 flex-1 hover:scale-110 transition-transform">
               <div className="flex flex-col items-center">
-                <Image src={consulting} width={100} height={100} />
+                <Image src={mac_img} width={100} height={100} />
                 <h3 className="text-lg font-medium pt-8 pb-2">
                   Brain - Storming
                 </h3>
                 <p className="py-2">Extra-curricular Interests!</p>
                 <h4 className="py-4 text-green-600">Favourites:</h4>
-                <p className="text-gray-600 py-1">Finance & Economics</p>
-                <p className="text-gray-600 py-1">Fitness</p>
-                <p className="text-gray-600 py-1">Ergonomics and Design</p>
-                <p className="text-gray-600 py-1">
+                <p className="text-gray-500 py-1">Sports</p>
+                <p className="text-gray-500 py-1">Finance & Economics</p>
+                <p className="text-gray-500 py-1">Ergonomics and Design</p>
+                <p className="text-gray-500 py-1">
                   Bussiness & Political Case Studies
                 </p>
               </div>
@@ -150,12 +159,15 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <button
-              type="button"
-              className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 mb-10"
-            >
-              Portfolio
-            </button>
+            <a href="https://www.anishsoni.in/resume_anish_soni.pdf">
+              <button
+                type="button"
+                className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 mb-10"
+              >
+                Portfolio
+              </button>
+            </a>
+
             <div className="text-md py-2 leading-8 text-gray-200">
               <div className="text-green-400">console.log</div>
               Thanks for diving into my digital world !; <br />
