@@ -23,7 +23,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-zinc-950 px-10 md:px-20 lg:pfd-40 text-white">
+      <main className="bg-zinc-950 h-full px-10 md:px-20 lg:pfd-40 text-white">
         <section className="min-h-screen pb-20">
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className="text-xl font-burtons">Developed by Anish</h1>
@@ -175,7 +175,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <footer className="rounded-lg shadow m-4 bg-gray-800">
+        <footer className="border-bottom mb-0 relative rounded-lg shadow bg-gray-800">
           <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
             <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
               © 2024 <a class="hover:underline">Anish Soni</a>
