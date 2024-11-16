@@ -1,25 +1,47 @@
-🌟 Welcome to my Portfolio Website 🚀
+<div align="center">
+<img alt="Portfolio" src="https://github.com/dillionverma/portfolio/assets/16860528/57ffca81-3f0a-4425-b31d-094f61725455" width="90%">
+</div>
 
-This is the repository for my personal portfolio website, where I showcase my skills, projects, and experiences. Explore my work, learn about me, and get in touch!
+# Portfolio [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdillionverma%2Fportfolio)
 
-🔗 [Check out the live website here](https://www.anishsoni.in/)
+Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/), deployed on Vercel.
 
-## Features:
-- 💼 Detailed information about my professional background and experience.
-- 🛠️ Showcase of my projects with descriptions, images, and links.
-- 📚 Blog section for sharing insights, tutorials, and tech-related articles.
-- 📧 Contact page for easy communication and networking.
-- 🌐 Responsive design for seamless browsing on all devices.
-- 🌈 Customizable and easy to adapt for your own use.
+# Features
 
-## Technologies Used:
-- HTML, CSS, and JavaScript for the front-end.
-- Hosting on [Vercel].
+- Setup only takes a few minutes by editing the [single config file](./src/data/resume.tsx)
+- Built using Next.js 14, React, Typescript, Shadcn/UI, TailwindCSS, Framer Motion, Magic UI
+- Includes a blog
+- Responsive for different devices
+- Optimized for Next.js and Vercel
 
-Feel free to clone this repository and customize it to create your own portfolio website. Your feedback and contributions are welcome!
+# Getting Started Locally
 
-📬 Contact: [sonianish441@gmail.com]
-📱 Twitter: [[anishsoni29](https://twitter.com/anishsoni29)]
-🌐 Website: [anishsoni.in](https://anishsoni.in)
+1. Clone this repository to your local machine:
 
-Enjoy exploring and building your own impressive online presence!
+   ```bash
+   git clone https://github.com/dillionverma/portfolio
+   ```
+
+2. Move to the cloned directory
+
+   ```bash
+   cd portfolio
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   pnpm install
+   ```
+
+4. Start the local Server:
+
+   ```bash
+   pnpm dev
+   ```
+
+5. Open the [Config file](./src/data/resume.tsx) and make changes
+
+# License
+
+Licensed under the [MIT license](https://github.com/dillionverma/portfolio/blob/main/LICENSE.md).
