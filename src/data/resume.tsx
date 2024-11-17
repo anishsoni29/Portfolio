@@ -298,11 +298,11 @@ export const DATA = {
       ],
     },
     {
-      title: "Participation in IIT-J Hackathon 2022",
+      title: "IIT-J Hackathon 2022",
       dates: "September 15th - 17th, 2022",
       location: "Indian Institute of Technology, Jodhpur",
       description:
-        "Developed a virtual reality application allowing users to see themselves in third person.",
+        "Runner up for the pre-final round where we developed an AI Pulmonary Assistant.",
       image:
         "/iitj.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
@@ -311,6 +311,11 @@ export const DATA = {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/anishsoni29/Pulmones",
+        },
+        {
+          title: "Live",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://pulmones-client.vercel.app/",
         },
         {
           title: "Certification",
