@@ -11,7 +11,7 @@ export const DATA = {
     "Tech enthusiast, traveler, and creator of cool solutions to simplify life. Always exploring and building!",
   summary:
     "I started in sports, playing cricket competitively, before shifting to tech inspired by creators like MKBHD. Pursuing engineering, I discovered my love for building and problem-solving, working with a dozen startups in college. A state Mathematical Genius nominee, I’m passionate about travel, innovation, and entrepreneurship, with finance as a solid fallback.",
-  avatarUrl: "/anishhh.jpg",
+  avatarUrl: "/anish.jpg",
   skills: [
     "React",
     "Next.js",
