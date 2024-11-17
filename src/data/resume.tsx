@@ -104,6 +104,18 @@ export const DATA = {
         "As an apprentice at Buildspace, I worked on real-world projects, diving deep into product design, which helped me discover my passion for it.",
     },
     {
+      company: "Roll The Mic",
+      href: "https://www.linkedin.com/company/roll-the-mic/posts/?feedView=all",
+      badges: [],
+      location: "Remote",
+      title: "Co-Founder",
+      logoUrl: "/rtm.jpeg",
+      start: "December 2022",
+      end: "February 2023",
+      description:
+        "Started as a personal project to learn from diverse connections, I hosted conversations with people from varied backgrounds, eventually sharing them on platforms like Spotify, Apple Music, Overcast, and Google Podcasts.",
+    },
+    {
       company: "Spotify",
       href: "https://open.spotify.com/show/2VsacNE4Oq0p86dmg104es",
       badges: [],
@@ -111,7 +123,7 @@ export const DATA = {
       title: "Podcaster",
       logoUrl: "/spotify.png",
       start: "January 2022",
-      end: "February 2023",
+      end: "April 2023",
       description:
         "Started as a personal project to learn from diverse connections, I hosted conversations with people from varied backgrounds, eventually sharing them on platforms like Spotify, Apple Music, Overcast, and Google Podcasts.",
     },
