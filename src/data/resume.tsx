@@ -11,7 +11,7 @@ export const DATA = {
     "Tech enthusiast, traveler, and creator of cool solutions to simplify life. Always exploring and building!",
   summary:
     "I started in sports, playing cricket competitively, before shifting to tech inspired by creators like MKBHD. Pursuing engineering, I discovered my love for building and problem-solving, working with a dozen startups in college. A state Mathematical Genius nominee, I’m passionate about travel, innovation, and entrepreneurship, with finance as a solid fallback.",
-  avatarUrl: "/anish1.jpg",
+  avatarUrl: "/anishh.jpg",
   skills: [
     "React",
     "Next.js",
@@ -327,7 +327,7 @@ export const DATA = {
     {
       title: "Artificial Intelligence and Machine Learning",
       dates: "August 05, 2023",
-      location: "NATIONAL INSTITUTE OF ELECTRONICS & INFORMATION TECHNOLOGY (NIELIT)",
+      location: "National Institute of Electronics & Information Technology (NIELIT)",
       description: "Improved PocketDoc and submitted to online competition",
       image:
         "/nielit_logo.jpg",
@@ -378,7 +378,7 @@ export const DATA = {
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/dillionverma/earthwatch",
+          href: "https://github.com/anishsoni29/earthwatch",
         },
       ],
     },
