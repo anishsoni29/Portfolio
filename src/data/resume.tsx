@@ -116,18 +116,6 @@ export const DATA = {
         "Started as a personal project to learn from diverse connections, I hosted conversations with people from varied backgrounds, eventually sharing them on platforms like Spotify, Apple Music, Overcast, and Google Podcasts.",
     },
     {
-      company: "Spotify",
-      href: "https://open.spotify.com/show/2VsacNE4Oq0p86dmg104es",
-      badges: [],
-      location: "Remote",
-      title: "Podcaster",
-      logoUrl: "/spotify.png",
-      start: "January 2022",
-      end: "April 2023",
-      description:
-        "Started as a personal project to learn from diverse connections, I hosted conversations with people from varied backgrounds, eventually sharing them on platforms like Spotify, Apple Music, Overcast, and Google Podcasts.",
-    },
-    {
       company: "Zizzy",
       href: "https://zizzy.in/",
       badges: [],
