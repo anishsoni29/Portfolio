@@ -180,7 +180,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://pub-1ae671ab440b48c5a714d86c9002d0bf.r2.dev/thrifty.mp4",
+        "https://pub-1ae671ab440b48c5a714d86c9002d0bf.r2.dev/thrifty.mov",
     },
     {
       title: "Lumen",
@@ -247,12 +247,11 @@ export const DATA = {
       description:
         "Built a candle-selling platform using React, Node.js, and MongoDB, focusing on user experience and sales. Utilized React hooks for state management and Redux to streamline user interactions.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "React.js",
+        "Javascript",
+        "Node.js",
+        "MongoDB",
         "TailwindCSS",
-        "Shadcn UI",
         "Magic UI",
         "Stripe",
         "Cloudflare Workers",
