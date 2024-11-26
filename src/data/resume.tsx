@@ -180,7 +180,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "https://pub-1ae671ab440b48c5a714d86c9002d0bf.r2.dev/thrifty.mp4",
     },
     {
       title: "Lumen",
