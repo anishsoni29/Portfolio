@@ -68,6 +68,18 @@ export const DATA = {
 
   work: [
     {
+      company: "The Mainstreet Marketplace",
+      href: "https://marketplace.mainstreet.co.in/",
+      badges: [],
+      location: "Mumbai, India",
+      title: "Project Management Executive",
+      logoUrl: "/mnst.jpg",
+      start: "July 2024",
+      end: "September 2024",
+      description:
+        "Spearheaded the development of a custom CRM system, integrating automation and analytics to streamline content workflows, reduce post-production time by 30%, and enhance operational efficiency by 40%.",
+    },
+    {
       company: "Device Doctor",
       href: "https://devicedoctorindia.com/",
       badges: [],
