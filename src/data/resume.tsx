@@ -8,7 +8,7 @@ export const DATA = {
   location: "Rajasthan, India",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Tech enthusiast, traveler, and creator of cool solutions to simplify life. Always exploring and building!",
+    "Tech innovator, finance enthusiast, an avid traveller and storyteller turning ideas into impact.",
   summary:
     "I started in sports, playing cricket competitively, before shifting to tech inspired by creators like MKBHD. Pursuing engineering, I discovered my love for building and problem-solving, working with a dozen startups in college. A state Mathematical Genius nominee, I’m passionate about travel, innovation, and entrepreneurship, with finance as a solid fallback.",
   avatarUrl: "/me1.jpg",
@@ -74,8 +74,8 @@ export const DATA = {
       location: "Mumbai, India",
       title: "Project Management Executive",
       logoUrl: "/mnst.jpg",
-      start: "July 2024",
-      end: "September 2024",
+      start: "December 2024",
+      end: "February 2025",
       description:
         "Spearheaded the development of a custom CRM system, integrating automation and analytics to streamline content workflows, reduce post-production time by 30%, and enhance operational efficiency by 40%.",
     },
