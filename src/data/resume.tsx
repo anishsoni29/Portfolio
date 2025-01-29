@@ -71,7 +71,7 @@ export const DATA = {
 
   work: [
     {
-      company: "The Mainstreet Marketplace",
+      company: "Defence Research & Development Organisation",
       href: "https://www.drdo.gov.in/drdo/labs-and-establishments/institute-systems-studies-analyses-issa",
       badges: [],
       location: "Delhi, India",
