@@ -20,12 +20,15 @@ export const DATA = {
     "Python",
     "Go",
     "Postgres",
+    "Firebase",
     "Docker",
     "Kubernetes",
+    "FastAPI"
     "AWS",
-    "Firebase",
+    "MATLAB",
     "C++",
-    "Figma"
+    "Figma",
+    "Notion"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -69,13 +72,25 @@ export const DATA = {
   work: [
     {
       company: "The Mainstreet Marketplace",
+      href: "https://www.drdo.gov.in/drdo/labs-and-establishments/institute-systems-studies-analyses-issa",
+      badges: [],
+      location: "Delhi, India",
+      title: "Software Engineer Intern",
+      logoUrl: "/drdo.webp",
+      start: "January 2025",
+      end: "ongoing",
+      description:
+        "Developing and implementing quantitative models for military operations research using MATLAB and Python, focusing on optimization, simulation, and decision analysis.",
+    },
+    {
+      company: "The Mainstreet Marketplace",
       href: "https://marketplace.mainstreet.co.in/",
       badges: [],
       location: "Mumbai, India",
-      title: "Project Management Executive",
+      title: "Project Manager",
       logoUrl: "/mnst.jpg",
       start: "December 2024",
-      end: "ongoing",
+      end: "January 2025",
       description:
         "Spearheaded the development of a custom CRM system, integrating automation and analytics to streamline content workflows, reduce post-production time by 30%, and enhance operational efficiency by 40%.",
     },
