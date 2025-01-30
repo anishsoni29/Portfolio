@@ -23,7 +23,7 @@ export const DATA = {
     "Firebase",
     "Docker",
     "Kubernetes",
-    "FastAPI"
+    "FastAPI",
     "AWS",
     "MATLAB",
     "C++",
