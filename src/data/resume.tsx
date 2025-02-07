@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Tech innovator, finance enthusiast, a seasoned backpacker and storyteller turning ideas into impact.",
   summary:
-    "I started in sports, playing cricket competitively, before shifting to tech inspired by creators like MKBHD. Pursuing engineering, I discovered my love for building and problem-solving, working with a dozen startups in college. A state Mathematical Genius nominee, I’m passionate about travel, innovation, and entrepreneurship, with finance as a solid fallback.",
+    "I started in sports, playing cricket competitively, before shifting to tech inspired by creators like MKBHD. Pursuing engineering, I discovered my love for building and problem-solving, working with a dozen startups in college. A state Mathematical Genius awardee, I’m passionate about travel, innovation, and entrepreneurship, with finance as a solid fallback.",
   avatarUrl: "/me1.jpg",
   skills: [
     "React",
