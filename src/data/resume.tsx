@@ -71,6 +71,18 @@ export const DATA = {
 
   work: [
     {
+      company: "CoReCo Technologies Private Limited",
+      href: "https://corecotechnologies.com/",
+      badges: [],
+      location: "Pune, India",
+      title: "Software Engineer Intern",
+      logoUrl: "/coreco.png",
+      start: "February 2025",
+      end: "ongoing",
+      description:
+        "Developing an Audible-like platform, building a responsive frontend and designing scalable APIs to support 100K+ users and millions of audio streams, ensuring high performance and seamless user experience.",
+    },
+    {
       company: "Defence Research & Development Organisation",
       href: "https://www.drdo.gov.in/drdo/labs-and-establishments/institute-systems-studies-analyses-issa",
       badges: [],
