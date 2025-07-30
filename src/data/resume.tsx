@@ -71,18 +71,6 @@ export const DATA = {
 
   work: [
     {
-      company: "Medihut",
-      href: "https://medihut.in/",
-      badges: [],
-      location: "India",
-      title: "Co-Founder and Tech lead",
-      logoUrl: "/medihut.png",
-      start: "February 2025",
-      end: "July 2025",
-      description:
-        "Driving the design and development of a digital-first medicine delivery ecosystem for underserved regions in Bihar. Building an end-to-end platform inspired by Blinkit, to ensure timely and affordable access to healthcare essentials."
-    },
-    {
       company: "CoReCo Technologies Private Limited",
       href: "https://corecotechnologies.com/",
       badges: [],
@@ -105,6 +93,18 @@ export const DATA = {
       end: "ongoing",
       description:
         "Developing and implementing quantitative models for military operations research using MATLAB and Python, focusing on optimization, simulation, and decision analysis.",
+    },
+     {
+      company: "Medihut",
+      href: "https://medihut.in/",
+      badges: [],
+      location: "India",
+      title: "Co-Founder and Tech lead",
+      logoUrl: "/medihut.png",
+      start: "February 2025",
+      end: "July 2025",
+      description:
+        "Driving the design and development of a digital-first medicine delivery ecosystem for underserved regions in Bihar. Building an end-to-end platform inspired by Blinkit, to ensure timely and affordable access to healthcare essentials."
     },
     {
       company: "The Mainstreet Marketplace",
