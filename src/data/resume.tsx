@@ -71,6 +71,18 @@ export const DATA = {
 
   work: [
     {
+      company: "Medihut",
+      href: "https://medihut.in/",
+      badges: [],
+      location: "India",
+      title: "Co-Founder and Tech lead",
+      logoUrl: "/medihut.png",
+      start: "February 2025",
+      end: "July 2025",
+      description:
+        "Driving the design and development of a digital-first medicine delivery ecosystem for underserved regions in Bihar. Building an end-to-end platform inspired by Blinkit, to ensure timely and affordable access to healthcare essentials."
+    },
+    {
       company: "CoReCo Technologies Private Limited",
       href: "https://corecotechnologies.com/",
       badges: [],
