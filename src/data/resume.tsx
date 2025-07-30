@@ -104,7 +104,7 @@ export const DATA = {
       start: "February 2025",
       end: "July 2025",
       description:
-        "Driving the design and development of a digital-first medicine delivery ecosystem for underserved regions in Bihar. Building an end-to-end platform inspired by Blinkit, to ensure timely and affordable access to healthcare essentials."
+        "Lead the design and development of a digital-first medicine delivery ecosystem for underserved regions in Bihar. Building an end-to-end platform inspired by Blinkit, to ensure timely and affordable access to healthcare essentials."
     },
     {
       company: "The Mainstreet Marketplace",
